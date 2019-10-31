@@ -1,0 +1,76 @@
+body{
+    background-color: #232323;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s; /* you set where the transition should occur on the element and then set for how long do you want that change to take*/
+    -webkit-transition: background 0.6s; /* browser prefixes In support for browsers without a built in transition*/
+    -moz-transition: background 0.6s;
+}
+#container{
+    margin: 20px auto;/*auto centers the elements in the center*/
+    max-width: 600px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+.btn{
+    color:white;
+}
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+    float: center;
+}
+#message{
+    padding: 30px;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%; /* height of element covers up 100% of the containing element*/
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    display: inline-block;
+    width: 20%;
+    transition: all 8.3s; /* changes the time taken to display or fade out something, every property in particular for this case*/
+    -webkit-transition: all 5.3s; /* browser prefixes In support for browsers without a built in transition*/
+    -moz-transition: all 5.3s;
+    outline: none;
+}
+.selected{
+    background: steelblue;
+    color: white;
+}
+.spn{
+    font-size: 200% /*Increaments the font size by 200% of the h1 */
+}
+/*button:hover{
+    color: white;
+    background: steelblue;
+}
+button:active{
+    color: white;
+    background: steelblue;
+}*/
+
